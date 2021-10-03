@@ -1,0 +1,6 @@
+
+name	definition	description	input-parameter	output-parameter
+"flowrate"	"6.76811E-005 [m^3/s]"	""	#f	#f
+"radius"	"sqrt(Position.x**2+Position.y**2)"	""	#f	#f
+"velocity_profile"	"((1-(radius/6[mm]))**(1/7))*vmax"	"vmax*(1-(sqrt(Position.x**2+Position.y**2)/(6[mm]))**(1/7))"	#f	#f
+"vmax"	"flowrate * 60/((6[mm])**2*PI*49)"	"flowrate * 15 [m^3/s]*((6[mm])**2*PI)"	#f	#f
